@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet" />
+      <script src = "https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+    <style type="text/css">
+        .ui-widget-header {
+            background:Yellow;
+            border: 1px solid Gray;
+            color: #000000;
+            font-weight: bold;
+         }
+         .ui-widget-content {
+            background: red;
+            border: 1px solid #DDDDDD;
+            color: #ffffff;
+         }
+         #Mydiv
+         {
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            text-align: center;
+            margin: 0px;
+         }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#Mydiv").resizable();
+        });
+    </script>
+</head>
+<body>
+    <div id="Mydiv" class="ui-widget-content">
+        <h3 class="ui-widget-header"> </h3>
+    </div>
+
+</body>
+</html>
